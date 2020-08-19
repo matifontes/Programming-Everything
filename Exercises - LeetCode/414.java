@@ -18,7 +18,7 @@ public class Solution {
                 count++;
             }
         }
-        if (count>2){
+        if (count>2){ //si hay mas de 2 entradas distintas.
             return (int)res[2];
         }else{
             return (int)res[0];
