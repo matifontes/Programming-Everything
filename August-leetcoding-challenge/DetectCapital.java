@@ -14,6 +14,7 @@ class Solution {
             if(Character.isUpperCase(curr) && subWord.equals(subAuxLower)){
                 res = true;
             } 
+
         }
         return res;
     }
