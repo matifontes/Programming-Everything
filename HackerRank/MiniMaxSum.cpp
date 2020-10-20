@@ -6,26 +6,21 @@ vector<string> split_string(string);
 
 // Complete the miniMaxSum function below.
 void miniMaxSum(vector<int> arr) {
-    int max = INT_MIN;
-    int min INT_MAX;
-    for(int i=0; i<arr.size(); i++) {
-        if(arr[i] < min){}
+    long max = arr[0];
+    long min = arr[0];
+    long sum=0;
+    for(int i=0; i < arr.size(); i++) {
+        if(arr[i] < min){
             min = arr[i];
         }
-        if(arr[i] > max)
+        if(arr[i] > max){
             max = arr[i];
         }
+        sum+=arr[i];
     }
-    int sumMax = 0;
-    int sumMin = 0;
-    for(int i=0; i<arr.size(); i++){
-        if(arr[i] != max){
-            sumMin += arr[i];
-        }
-        if(arr[i] != min){
-            sumMax += arr[i]
-        }
-    }
+    long sumMax = sum - min;
+    long sumMin = sum - max;
+    
     cout << sumMin << " " << sumMax;
 
 }
