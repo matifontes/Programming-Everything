@@ -14,11 +14,12 @@ class Solution {
         helper.next = head;
         ListNode p = helper;
 
-        while(p.next != null){
-            if(p.next.val == val){
+        while(p.next != null) {
+            if(p.next.val == val) {
                 ListNode next = p.next;
                 p.next = next.next; 
-            }else{
+            }
+            else {
                 p = p.next;
             }
         }
