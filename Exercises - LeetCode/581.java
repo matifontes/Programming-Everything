@@ -24,7 +24,6 @@ public class Solution {
                 }
                 if (k == nums.length) {
                     res = Math.min(res, j - i);
-
                 }
             }
         }
