@@ -1,6 +1,7 @@
 class Solution {
 public:
-    int addDigits(int num) {
+    int addDigits(int num) 
+    {
         int ret = 0;
         while (num > 0) {
             ret += num % 10;
