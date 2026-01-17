@@ -9,7 +9,6 @@ int pageCount(int n, int p) {
     int a = p/2;
     int b = (n/2)-(p/2);
     return min(a,b);
-
 }
 
 int main()
