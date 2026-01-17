@@ -21,7 +21,6 @@ vector<int> compareTriplets(vector<int> a, vector<int> b) {
     }
 
     return res;
-
 }
 
 int main()
