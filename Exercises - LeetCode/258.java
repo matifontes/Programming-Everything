@@ -11,6 +11,7 @@ Explanation: The process is
 Since 2 has only one digit, return it.
 */
 
+
 class Solution {
     public int addDigits(int num) {
         int res = 0;
